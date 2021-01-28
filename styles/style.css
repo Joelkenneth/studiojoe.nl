@@ -123,7 +123,7 @@ header nav ul li a:hover {
     margin-right: 1em;
     padding: 1.5em 2.5em 1.5em 2.5em;
     font-family: 'Poppins', sans-serif;
-    font-weight: 600;
+    font-weight: 800;
     font-size: .75em;
     text-transform: uppercase;
     border-radius: 30px;
@@ -142,12 +142,13 @@ header nav ul li a:hover {
     color: white;
 }
 
+
 @media (max-width: 800px) {
     .opener {
         display: table;
         padding-left: 3em;
         padding-right: 3em;
-        padding-top: .75em;
+        padding-top: 0;
     }
 
     .opener article {
@@ -172,13 +173,100 @@ header nav ul li a:hover {
     }
 }
 
+.ender {
+    margin: 0;
+    padding-left: 6em;
+    padding-right: 6em;
+    padding-top: 3em;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 5em;
+}
+
+.ender article {
+    width: 50%;
+    margin: 0;
+}
+
+.ender h1 {
+    margin: 0;
+    padding-bottom: .5em;
+    font-family: 'Lora', sans-serif;
+    font-weight: 700;
+    font-size: 4em;
+    border-bottom: 10px solid #16db93;
+}
+
+.ender p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    width: 90%
+}
+
+.ender a {
+    margin-right: 1em;
+    padding: 1.5em 2.5em 1.5em 2.5em;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    font-size: .75em;
+    text-transform: uppercase;
+    border-radius: 30px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+    color: white;
+}
+
+
+.ender p:nth-of-type(2) {
+    padding-bottom: 0;
+    padding-top: 0;
+}
+
+.ender p:nth-of-type(3) {
+    padding-bottom: 2em;
+    padding-top: 0;
+}
+
+@media (max-width: 800px) {
+    .ender {
+        display: table;
+        padding-left: 3em;
+        padding-right: 3em;
+        padding-top: 0;
+    }
+
+    .ender article {
+        width: 100%;
+        padding-bottom: 2em;
+    }
+
+    .ender h1 {
+        font-size: 2em;
+    }
+
+    .ender p {
+        font-size: 1em;
+    }
+
+}
+
+@media (max-width: 1000px) {
+    .ender a {
+        display: table;
+        margin: 0 0 2em 0;
+    }
+}
+
+
 .wave {
     animation: rotation 20s infinite linear;
     display: flex;
     padding: 1em;
     margin: 3em 4em 3em 10em;
     width: 25em;
-    margin: 0 0 2em 0;
 }
 
 @media (max-width: 800px) {
@@ -243,6 +331,11 @@ section p {
     display: flex;
     margin: 0;
     width: 90%;
+}
+
+.insta {
+    background: rgb(131,58,180);
+    background: linear-gradient(-135deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(255,160,27,1) 100%);
 }
 
 
@@ -385,8 +478,13 @@ section p {
     top: 80%;
 }
 
-footer p {
-    bottom: 0;
-    color: #080F0F;
-    height: 10em;
+@media screen and (max-width: 640px) {
+    .content:hover .content-overlay {
+    visibility: hidden;
+    }
+    .content:hover .content-details {
+    visibility: hidden;
+}
+
+
 }
