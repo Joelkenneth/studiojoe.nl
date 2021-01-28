@@ -329,8 +329,8 @@ section p {
 
 .profiel {
     display: flex;
-    margin-left: 4em;
-    width: 80%;
+    margin-left: 6em;
+    width: 75%;
 }
 
 @media screen and (max-width: 640px) {
@@ -344,6 +344,9 @@ section p {
     background: linear-gradient(-135deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(255,160,27,1) 100%);
 }
 
+.spoti {
+    background: #1DB954;
+}
 
 .aboutme {
     margin: 0;
@@ -485,7 +488,7 @@ section p {
 }
 
 @media screen and (max-width: 640px) {
-    .content {
+    .content-overlay {
     visibility: hidden;
 }
 
