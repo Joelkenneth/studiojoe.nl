@@ -479,12 +479,8 @@ section p {
 }
 
 @media screen and (max-width: 640px) {
-    .content:hover .content-overlay {
-    visibility: hidden;
-    }
-    .content:hover .content-details {
+    .content {
     visibility: hidden;
 }
-
 
 }
