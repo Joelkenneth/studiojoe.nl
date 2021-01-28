@@ -488,8 +488,14 @@ section p {
 }
 
 @media screen and (max-width: 640px) {
-    .content-overlay {
+    .content-details .fadeIn-bottom {
     visibility: hidden;
-}
+    }
+    .content-title {
+        visibility: hidden;
+    }
+    .content-text {
+        visibility: hidden;
+    }
 
 }
