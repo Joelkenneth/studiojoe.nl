@@ -329,8 +329,14 @@ section p {
 
 .profiel {
     display: flex;
-    margin: 0;
-    width: 90%;
+    margin-left: 4em;
+    width: 80%;
+}
+
+@media screen and (max-width: 640px) {
+    .profiel {
+        margin: 0;
+    }
 }
 
 .insta {
