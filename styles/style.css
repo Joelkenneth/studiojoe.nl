@@ -505,15 +505,22 @@ section p {
     padding-right: .5em;
     font-family: 'Lora', sans-serif;
     font-weight: 700;
-    font-size: 4em;
+    font-size: 2em;
     border-right: 10px solid #16db93;
+}
+
+.workdetail h2 {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 1.5em;
+    color: #16db93;
 }
 
 .workdetail p {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 1em;
-    padding-top: 1em;
     padding-bottom: 3em;
     width: 90%
 }
