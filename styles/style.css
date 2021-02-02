@@ -520,6 +520,11 @@ section p {
     width: 50%;
 }
 
+.workdetail:nth-of-type(2) article:nth-of-type(3) {
+    display: flex;
+    width: 50%;
+}
+
 .workdetail h1 {
     margin: 0;
     padding-right: .5em;
