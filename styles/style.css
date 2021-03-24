@@ -243,7 +243,7 @@ header nav ul li a:hover {
     padding-top: 1.5em;
 }
 
-.ender p:nth-of-type(4) {
+.ender p:nth-of-type(3) {
     padding-bottom: 2.5em;
     padding-top: 0;
 }
@@ -272,7 +272,7 @@ header nav ul li a:hover {
 
 
 
-@media (max-width: 1200px) {
+@media (max-width: 1500px) {
     .ender a {
         display: table;
         margin: 0 0 2em 0;
@@ -367,6 +367,9 @@ section p {
     background: #1DB954;
 }
 
+.linkedin {
+    background: #2867B2;
+}
 
 
 .container {
