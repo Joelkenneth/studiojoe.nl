@@ -499,14 +499,11 @@ section p {
 }
 
 .workdetail:nth-of-type(1) article:nth-of-type(2) p {
-    color: white;
+    color: rgba(22, 219, 147, 1);
     text-align: right;
     font-family: 'Lora', sans-serif;
     font-weight: 700;
-    font-size: 4em;
-    -webkit-text-fill-color: white; /* Will override color (regardless of order) */
-    -webkit-text-stroke-width: .5px;
-    -webkit-text-stroke-color: rgba(22, 219, 147, 1);
+    font-size: 1em;
 }
 
 
@@ -546,7 +543,6 @@ section p {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 1em;
-    width: 90%
 }
 
 .workdetail img {
@@ -592,7 +588,7 @@ section p {
     }
     
     .workdetail:nth-of-type(1) article:nth-of-type(2) p {
-        font-size: 1.5em;
+        font-size: 1em;
         text-align: left;
     }
 }
